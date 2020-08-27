@@ -1,0 +1,19 @@
+#article
+{
+    display: block;
+    margin: 20px 30% 10px 30%;
+    width: auto;
+    height: auto;
+}
+#article #title
+{
+    color: purple;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#article .image
+{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+}

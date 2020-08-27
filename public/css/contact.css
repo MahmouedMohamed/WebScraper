@@ -1,0 +1,12 @@
+/* contact */
+.card-header{
+    text-align: center;
+}
+.card{
+    text-align: center;
+}
+.card a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #9561e2;
+}

@@ -1,0 +1,3 @@
+id	main		title			description			date		link
+1	article    .post-box-title>a    	  .entry>p			null		.post-box-title>a
+2	post-item  .post-details>.post-title>a .post-details>.post-excerpt      .date 		.post-details>.post-title>a

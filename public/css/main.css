@@ -1,0 +1,159 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+body
+ {
+     margin: 0;
+     padding: 0;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 11pt;
+     font-weight: 300;
+     color: #6c6c6c;
+        height: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 53%);
+     background-size: cover;
+ }
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #9561e2;
+}
+p
+{
+    line-height: 180%;
+}
+a
+{
+    color: #2C383B;
+}
+button
+{
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /*background-color: rgba(54%,17%,89%,1.0);*/
+    color: rgba(54%,17%,89%,1.0);
+    border: 1px solid transparent;
+    padding: 2px 30px 2px 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: lighter;
+    line-height: 1.6;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.title
+{
+    margin-bottom: 3em;
+}
+
+.title h2
+{
+    font-weight: 400;
+    font-size: 2.8em;
+    color: #323232;
+}
+
+.title .byline
+{
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #6F6F6F;
+}
+.navbar-brand{
+    width: 10%;
+}
+.navbar-brand img{
+    background-size: contain;
+    width: 100%;
+}
+/*.navbar-nav*/
+/*{*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 6em;*/
+/*}*/
+
+/*.navbar-nav*/
+/*{*/
+    /*display: inline-block;*/
+    /*padding-right: 0;*/
+    /*padding-left: 0;*/
+/*}*/
+main{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.navbar-nav li
+{
+    display: block;
+    list-style-type: none;
+    /*float: left;*/
+    /*text-align: center;*/
+}
+.navbar-nav li
+{
+    font-size: 14px;
+    transition: font-size 0.2s;
+}
+.navbar-nav li:hover
+{
+    border-bottom: 1px solid silver;
+    /*border-radius: 10px;*/
+    font-size: 12px;
+}
+.navbar-nav li a, .navbar-nav li span
+{
+    display: inline-block;
+    margin-left: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: black;
+}
+.navbar-nav .current_page_item a
+{
+    background: #fff;
+    border-radius: 10px;
+    border: 10px black;
+    color: gold;
+    /*margin: 3px;*/
+}
+
+#copyright
+{
+    overflow: hidden;
+    padding: 30px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: gold;
+}
+
+#copyright a
+{
+    text-decoration: none;
+    color: gold;
+}
