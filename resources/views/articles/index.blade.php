@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div id="wrapper">
-        <div id="page" class="container">
+        <div class="container">
             @if(isset($articles))
                 @forelse($articles as $article)
                     <div class="card mb-4 pb-1" dir="auto">
@@ -14,6 +14,7 @@
                         </div>
                         <div>
                             <h5>{{$article->created_at}}</h5>
+                            <h5>{{$article->website->title}}</h5>
                         </div>
                         @auth
                             <div id="form" class="text-center">

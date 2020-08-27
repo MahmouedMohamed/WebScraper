@@ -21,6 +21,7 @@ Auth::routes();
 
 Route::get('/scrap/{id}','WebsitesController@scrap');
 Route::get('/websites','WebsitesController@index')->name('websites.index');
+Route::delete('/websites/{website}','WebsitesController@destroy');
 
 Route::get('/articles','ArticlesController@index')->name('articles.index');
 Route::post('/articles','ArticlesController@store');

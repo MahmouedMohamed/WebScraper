@@ -65,7 +65,7 @@
                     <div class="row mt-1 mx-5 border-bottom pb-1">
                         <div class="column1">
                             <h3 class="mr-5">Name: {{$website->name}}</h3>
-                            <h4 class="mr-5">Link: {{$website->link}}</h4>
+                            <h4 class="mr-5">Link: <a href="{{$website->link}}">{{$website->link}}</a></h4>
                             <h5 class="mr-5">Last time scrapped: {{$website->last_scraped_at}}</h5>
                         </div>
                         <button value="Scrap Now!" name="Scrap Now!" onclick="window.location.href='/scrap/{{$website->id}}'">Scarp Now!</button>
